@@ -2,12 +2,13 @@ h1, p {
     text-align: center;
 }
 
-li:hover {
+ol, ul {
     background-color: white;
 }
 
 li:active {
-    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
 }
 
 li {
