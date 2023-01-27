@@ -15,4 +15,3 @@ if(allAngle) {
 } else {
     console.log('Erro: ângulo inválido');
 }
-
