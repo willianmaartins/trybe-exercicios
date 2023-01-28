@@ -31,6 +31,11 @@ segundoFilhoSegundoNome.innerText = 'Vinicius';
 segundoFilhoSegundoNome.id = 'vini';
 segundoNome.appendChild(segundoFilhoSegundoNome);
 
+const terceiroFilhoSegundoNome = document.createElement('section');
+terceiroFilhoSegundoNome.id = 'ana';
+terceiroFilhoSegundoNome.innerText = 'Ana Paula';
+segundoNome.appendChild(terceiroFilhoSegundoNome);
+
 const filhoJose = document.createElement('section');
 filhoJose.innerText = 'Bruna';
 filhoJose.id = 'bruna';
@@ -50,6 +55,11 @@ const filhoFatima = document.createElement('section');
 filhoFatima.id = 'fran';
 filhoFatima.innerText = 'Franciele';
 terceiroNome.appendChild(filhoFatima);
+
+const filhoDoFilhoFatima = document.createElement('section');
+filhoDoFilhoFatima.id = 'barbara'
+filhoDoFilhoFatima.innerText = 'Barbara';
+filhoFatima.appendChild(filhoDoFilhoFatima);
 
 const filhoTiao = document.createElement('section');
 filhoTiao.id = 'dudu';
