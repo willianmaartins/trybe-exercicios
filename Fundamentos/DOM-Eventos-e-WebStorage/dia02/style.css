@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#pai {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#jose {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#bruna {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#miguel {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#alinne {
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#paulo {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#willian {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#vini {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#ana {
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;  
+}
+
+#fatima {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#fran {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#barbara {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid black 3px;
+}
+
+#tiao {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid 3px black;
+}
+
+#dudu {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  border: solid 3px black;
+}
