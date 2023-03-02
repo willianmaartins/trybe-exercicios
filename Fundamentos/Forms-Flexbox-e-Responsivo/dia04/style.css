@@ -23,8 +23,8 @@ body {
 .menu-container {
   display: flex;
   flex-basis: 500px;
-  order: 1;
   flex-grow: 1;
+  order: 1;
 }
 
 .menu-container ul {
@@ -49,8 +49,8 @@ body {
 
 .movie-container {
   display: flex;
-  flex-direction: column;
   flex-basis: 700px;
+  flex-direction: column;
   flex-grow: 10;
 }
 
@@ -78,12 +78,12 @@ body {
 }
 
 .aside-container {
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  flex-basis: 350px;
-  flex-grow: 1;
   align-self: center;
+  display: flex;
+  flex-basis: 350px;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 20px;
 }
 
 .aside-container h3, h4 {
