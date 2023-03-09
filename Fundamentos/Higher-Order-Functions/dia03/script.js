@@ -65,3 +65,70 @@ const countries = [
     area: 91
   }
 ];
+
+// const expectedResult = 120797034;
+const getPopulation = () => {
+ // retorne o seu código aqui
+const population = countries.map((countrie) => countrie.population);
+const totalPopupation = population.reduce((acc, cur) => {
+  return acc + cur;
+}, 0);
+return totalPopupation;
+}
+console.log(getPopulation());
+
+// const expectedResult = 4311757;
+const getTotalArea = () => {
+// retorne seu código aqui
+return countries.map((countrie) => countrie.area).reduce((acc, cur) => acc + cur, 0)
+}
+console.log(getTotalArea());
+
+// const expectedResult = {
+//   name: 'American Samoa',
+//   region: 'Oceania',
+//   currencies: [{ code: 'USD', name: 'United States Dollar' }],
+//   capital: 'Pago Pago',
+//   population: 55197,
+//   area: 199
+// }
+const longestName = () => {
+  // retorne seu código aqui
+  return countries.reduce((acc, cur) => {
+    return acc.name.length > cur.name.length ? acc : cur;  
+  })
+}
+console.log(longestName());
+
+const names = [
+  'Aanemarie', 'Adervandes', 'Akifusa',
+  'Abegildo', 'Adicellia', 'Aladonata',
+  'Abeladerco', 'Adieidy', 'Alarucha',
+];
+// const expectedResult = 20;
+const lettersArray = names.join('').toLowerCase().split('');
+const countA = () => {
+  return lettersArray.reduce((acc, curr) => {
+    return curr === 'a' ? acc += 1 : acc;
+  }, 0);
+}
+console.log(countA());
+
+// O index 0 do array `students` equivale ao index 0 do array `grades`
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+// const expectedResult = [
+//  { name: 'Pedro Henrique', average: 7.8 },
+//  { name: 'Miguel', average: 9.2 },
+//  { name: 'Maria Clara', average: 8.8 },
+// ];
+const studentAverage = () => {
+  // retorne seu código aqui
+  return nameAndAverage = students.map((student, index) => (
+    {
+    name: student,
+    average: (grades[index].reduce((acc, cur) => acc + cur, 0) / grades[index].length),
+  }
+  ));
+}
+console.log(studentAverage())
