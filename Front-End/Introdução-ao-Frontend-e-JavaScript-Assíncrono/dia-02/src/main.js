@@ -1,4 +1,5 @@
 import Swal from 'sweetalert2';
+import './style.css';
 
 const img = document.querySelector('#image');
 const name = document.querySelector('#name');
